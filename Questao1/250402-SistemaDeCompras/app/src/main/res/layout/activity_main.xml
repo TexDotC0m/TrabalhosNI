@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha os seus produtos"
+        android:textColor="#ff6600"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arroz 1 Kg (R$ 2,69)"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leite longa vida (R$ 2,70)"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carne Friboi (R$ 16,70)"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feijão carioquinha 1 Kg (R$ 3,38)"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbCoca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refrigerante coca-cola 2 litros (R$3,00)"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Espaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total da compra"
+        android:textSize="30sp"
+        android:backgroundTint="#ff6600"
+        android:onClick="calcular"/>
+    <TextView
+        android:id="@+id/Espaco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 0.00"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/Espaco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:textSize="30sp"
+        android:backgroundTint="#ff6600"
+        android:onClick="limpar"/>
+
+
+</LinearLayout>
