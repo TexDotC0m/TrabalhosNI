@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/Salario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Espaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/DigitePercentual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Percentual"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/Espaco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbQuarenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Quarenta"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rbQuarentaECinco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/QuarentaECinco"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rbCinquenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cinquenta"
+            android:textSize="25sp"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/Espaco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BotaoMostrar"
+        android:textSize="30sp"
+        android:backgroundTint="#FF6600"
+        android:onClick="calcular"
+        />
+
+    <TextView
+        android:id="@+id/Espaco4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Resultado"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+
+
+
+</LinearLayout>
