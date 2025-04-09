@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LojaVirtual2</string>
+    <string name="Botao">Iniciar</string>
+    <string name="Botao2">Concluir cadastro </string>
+    <string name="Mensagem1"> Parabéns, seu cadastro foi concluido!</string>
+    <string name="Mensagem2"> Seja bem vind@ </string>
+    <string name="MensagemNome"> --- </string>
+    <string name="Voltar"> Voltar para a tela inicial </string>
+</resources>
