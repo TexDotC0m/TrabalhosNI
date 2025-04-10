@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FastFood</string>
+    <string name="BotaoRegistro">Começar o pedido </string>
+    <string name="Opcao1"> X-Burger </string>
+    <string name="Opcao2"> X-Salada</string>
+    <string name="Opcao3"> Vegetariano </string>
+    <string name="Opcao4"> HotCat (HotDog)</string>
+    <string name="BotaoTerminar"> Concluir </string>
+    <string name="ColocarNome"> Nome do pedido </string>
+    <string name="Voltar"> Voltar para a tela de pedido </string>
+</resources>

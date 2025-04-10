@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PaginaPedido"
+    android:padding="10sp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="276dp"
+        android:layout_height="289dp"
+        android:src="@drawable/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097"
+        android:padding="10sp"/>
+
+    <RadioGroup
+        android:layout_width="319dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649">
+
+        <RadioButton
+            android:id="@+id/rbOpcao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcao1"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbOpcao2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcao2"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbOpcao3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcao3"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbOpcao4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Opcao4"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ColocarNome"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="@string/ColocarNome"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:padding="22sp"/>
+
+    <Button
+        android:id="@+id/btnMenuConcluir"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="#f7b845"
+        android:text="@string/BotaoTerminar"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+
+
+</LinearLayout>
