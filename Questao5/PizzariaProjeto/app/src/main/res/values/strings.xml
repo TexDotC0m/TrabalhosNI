@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+    <string name="TituloInicio"> Escolha o sabor de sua Pizza </string>
+    <string name="Sabor1"> Calabresa (+R$ 5.00) </string>
+    <string name="Sabor2">  Marguerita  (+R$ 7.00) </string>
+    <string name="Sabor3"> Portuguesa (+R$ 4.00)</string>
+    <string name="Sabor4"> 4 Queijos (+R$ 9.00)</string>
+    <string name="BotaoInicio"> Escolher o tamanho </string>
+    <string name="TituloEscolha"> Escolha o tamanho de sua pizza </string>
+    <string name="Tamanho1"> Pequena (R$ 45.00) </string>
+    <string name="Tamanho2"> Media (R$ 50.00) </string>
+    <string name="Tamanho3"> Grande (R$ 55.00) </string>
+    <string name="appT1btnContinuar"> Confirmação do pedido </string>
+    <string name="TituloPagamento"> Escolha a forma de pagamento </string>
+    <string name="Pagamento1"> Cartão </string>
+    <string name="Pagamento2"> Dinheiro </string>
+    <string name="btnVoltar"> Voltar </string>
+</resources>

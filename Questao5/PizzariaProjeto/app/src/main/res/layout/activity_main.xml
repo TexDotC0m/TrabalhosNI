@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="274dp"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TituloInicio"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:padding="10sp"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sabor1"
+        android:textSize="25sp"
+        android:padding="10sp"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sabor2"
+        android:textSize="25sp"
+        android:padding="10sp"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sabor3"
+        android:textSize="25sp"
+        android:padding="10sp"/>
+
+    <CheckBox
+        android:id="@+id/cbSabor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sabor4"
+        android:textSize="25sp"
+        android:padding="10sp"/>
+
+    <TextView
+        android:id="@+id/Espaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"/>
+
+    <Button
+        android:id="@+id/btnProximaPagina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BotaoInicio"
+        android:textSize="25sp"
+        android:padding="10sp"
+        android:backgroundTint="#e8a134"
+        android:onClick="ProximaTela"/>
+
+</LinearLayout>
